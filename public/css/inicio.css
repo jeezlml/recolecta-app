@@ -1,0 +1,59 @@
+.bienvenida-body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #e0e0e0 0%, #24753e 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #2e7d32; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+  }
+  
+  .material-icons {
+    color: #388e3c;
+  }
+
+.bienvenida-contenedor {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.bienvenida-contenedor h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.bienvenida-contenedor p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.boton {
+    background-color: #fff;
+    color: #24753e;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton:hover {
+    background-color: #e0e0e0;
+    color: #fff;
+}
